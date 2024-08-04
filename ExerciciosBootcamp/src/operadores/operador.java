@@ -3,8 +3,8 @@ package op.operadores;
 public class operador {
     
 public static void main(String[] args) {
-     
-        System.out.println(validarUsuario( "CHARL ES",0));
+      
+        System.out.println(validarUsuario( "CHARLES",1234567));
 
 
 
@@ -17,7 +17,7 @@ public static void main(String[] args) {
         int password = 1234567;
 
         //DADOS RECEBIDOS
-        String usuarioDigitado = usuario.trim();
+        String usuarioDigitado = usuario;
         int senhaDigitada = senha;
         
         boolean usuarioCadastrado = usuario.equals(user);
