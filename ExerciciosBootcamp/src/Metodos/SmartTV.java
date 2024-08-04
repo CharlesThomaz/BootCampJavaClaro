@@ -23,6 +23,10 @@ public class SmartTV {
     public void aumentarCanal(){
         System.out.println("Canal: " +" "+ ++canal);
     }
+    public void mudarCanal(int novoCanal){
+        canal = novoCanal;
+        System.out.println("Canal: " + canal);
+    }
     public void diminuirCanal(){
         System.out.println("Canal: " +" "+ --canal);
     }

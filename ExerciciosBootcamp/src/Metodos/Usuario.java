@@ -18,6 +18,12 @@ public class Usuario {
         tvLG.desligar();
         System.out.println("Tv ligada?" + tvLG.ligada);
 
+        tvLG.mudarCanal(30);tvLG.aumentarCanal();
+        tvLG.aumentarCanal();
+        tvLG.aumentarCanal();
+        tvLG.aumentarCanal();
+        tvLG.aumentarCanal();
+
 
 
 
