@@ -1,36 +1,20 @@
 public class Usuario {
+    
+
     public static void main(String[] args) {
-        SmartTV tvLG = new SmartTV();
-
-        System.out.println("Tv ligada?" + tvLG.ligada);
-        tvLG.ligar();
-        System.out.println("Tv ligada?" + tvLG.ligada);
-        System.out.println("Tv canal?" + tvLG.canal);
-        System.out.println("Tv volume?" + tvLG.volume);
-
-        tvLG.aumentarCanal();
-        tvLG.aumentarCanal();
-        tvLG.aumentarCanal();
-        tvLG.aumentarCanal();
-        tvLG.aumentarCanal();
-
-        tvLG.aumentarVolume();
-        tvLG.desligar();
-        System.out.println("Tv ligada?" + tvLG.ligada);
-
-        tvLG.mudarCanal(30);tvLG.aumentarCanal();
-        tvLG.aumentarCanal();
-        tvLG.aumentarCanal();
-        tvLG.aumentarCanal();
-        tvLG.aumentarCanal();
-
-
-
-
+       metodo();
+       
         
+    }
+    public static void metodo(){
+        boolean livre = true;
+        SmartTV tvLG = new SmartTV();
+        if (livre){
+            SmartTV tvPhil = new SmartTV();
 
-
-
+            tvLG.ligar();
+        }
+        System.out.println(tvLG.ligada);
     }
 
 

@@ -2,6 +2,8 @@
     "java.project.sourcePaths": [
         "java-anatomia-classes/src/br/edu/devset/primeira-semana",
         "java-anatomia-classes/src/br/edu/devset",
-        "ExerciciosBootcamp/src/Metodos"
+        "ExerciciosBootcamp/src/escopo",
+        "ExerciciosBootcamp/src/Metodos",
+        "ExerciciosBootcamp/src/palavrasReservadas"
     ]
 }
